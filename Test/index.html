@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>SocialTest</title>
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+   
+   <main>
+       <section id="banner">
+           <img src="img/historia-cultura-poder-topo.jpg" alt="">
+           <div class="contenedor">
+               <h2>SocialTest</h2>
+               <p>Crea y Realiza tu Propio test sobre las Ciencias Sociales.</p>
+           </div>           
+       </section>
+       
+       <section id="login">
+          
+          <h3>Quieres ¿Crear o Resolver? un Test</h3>
+          
+           <div id="admin">
+               <h2>Admin - Crea</h2>
+               <input type="text" placeholder="Nombre" id="nomAdm">
+               <input type="text" placeholder="Apellido">
+               <a href="crear.html"><input type="button" value="Crear" class="regist" id="reg" onclick="obligatorio()"></a>
+           </div>
+           
+           <div id="user">
+               <h2>Usuario - Resuelve</h2>
+               <input type="text" placeholder="Nombre" id="nomUser">
+               <input type="text" placeholder="Apellido">
+               <a href="test.html"><input type="button" value="Resolver" class="regist" id="reg" onclick="obligatorio()"></a>
+           </div>
+            
+       </section>
+       
+   </main>
+   
+   <footer>
+       <p>Universidad Don Bosco&copy;, Tec.Computacion, 2015</p>
+   </footer>
+   
+   <script src="js/script.js"></script>
+   
+</body>
+</html>

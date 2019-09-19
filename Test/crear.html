@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>SocialTest</title>
+    <link rel="stylesheet" href="css/crear.css">
+</head>
+<body>
+    
+    <div id="contenedor">
+        
+        <div id="elavoracion">
+        
+        <p>Pregunta</p>
+        <input type="text" placeholder="Cual es tu pregunta?" required>
+        
+        <div id="tiempo">
+            
+            <select name="" id="">
+                <option>-- Seleccionar el Tiempo --</option>
+                <option>1 seg</option>
+                <option>2 seg</option>
+                <option>3 seg</option>
+                <option>4 seg</option>
+                <option>5 seg</option>
+                <option>10 seg</option>
+                <option>15 seg</option>
+                <option>20 seg</option>
+            </select>
+        
+        </div>
+        
+    </div>
+    
+    <div id="preguntas">
+        
+        <p>Respuestas</p>
+        <p>Escribe las respuestas de la Pregunta anterior.</p>
+        <input type="text" id="primera" placeholder="pregunta 1">
+        <input type="text" id="segunda" placeholder="pregunta 2">
+        <input type="text" id="tercera" placeholder="pregunta 3">
+        <input type="text" id="cuarta" placeholder="pregunta 4">
+        
+        <div id="correcta">
+            
+            <select name="" id="">
+            <option>-- Respuesta Correcta --</option>
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+        </select>
+            
+        </div>
+        
+    </div>
+    
+    <div id="botones">
+        <input type="button" value="Crear Pregunta" onclick="funcionamiento()">
+        <input type="button" value="Finalizar Test" onclick="funcionamiento()">
+    </div>
+        
+    </div>
+    
+    <script src="js/administrador.js"></script>
+    
+</body>
+</html>
