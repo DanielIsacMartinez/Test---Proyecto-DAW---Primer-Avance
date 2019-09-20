@@ -43,6 +43,7 @@ function loadNextQuestion(){
     if(currentQuestion == totQuestions){
         container.style.display = 'none';
         resulCont.style.display = '';
+        resulCont.style.marginTop = '20%';
         resulCont.textContent ='Acerto ' + score + ' Preguntas';
         return;
     }
